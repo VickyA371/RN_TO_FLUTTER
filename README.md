@@ -11,11 +11,10 @@ npm install rn-login-sdk
 ## Usage
 
 ```js
-import { multiply } from 'rn-login-sdk';
+import { openLoginSdk } from 'rn-login-sdk';
 
-// ...
-
-const result = await multiply(3, 7);
+// Below function will open flutter app from react native app
+openLoginSdk();
 ```
 
 ## Contributing
