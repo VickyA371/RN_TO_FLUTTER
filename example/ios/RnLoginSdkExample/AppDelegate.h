@@ -4,10 +4,10 @@
 #import "FlutterPluginRegistrant/FlutterPluginRegistrant-umbrella.h"
 #import <React/RCTBridge.h>
 #import <React/RCTViewManager.h>
-
+#import "FlutterEngineProvider.h"
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : RCTAppDelegate
+@interface AppDelegate : RCTAppDelegate<FlutterEngineProvider>
 
 @property (nonatomic,strong) FlutterEngine *flutterEngine;
 @property (nonatomic,strong) FlutterViewController *flutterViewController;

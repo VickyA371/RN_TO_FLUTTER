@@ -13,6 +13,11 @@
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		7699B88040F8A987B510C191 /* libPods-RnLoginSdkExample-RnLoginSdkExampleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-RnLoginSdkExample-RnLoginSdkExampleTests.a */; };
+		780365F92BA1C27700C0888B /* Messages.g.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780365F82BA1C27700C0888B /* Messages.g.swift */; };
+		7822854E2BA17A2C003D6B57 /* RNTMapManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7822854D2BA17A2C003D6B57 /* RNTMapManager.m */; };
+		782285502BA1950F003D6B57 /* RNFlutterViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7822854F2BA1950F003D6B57 /* RNFlutterViewManager.m */; };
+		782285522BA19530003D6B57 /* RNFlutterViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782285512BA19530003D6B57 /* RNFlutterViewManager.swift */; };
+		782285542BA19579003D6B57 /* RNFlutterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782285532BA19579003D6B57 /* RNFlutterView.swift */; };
 		7848F5AE2B8F07380075A97A /* Connect.m in Sources */ = {isa = PBXBuildFile; fileRef = 7848F5AD2B8F07380075A97A /* Connect.m */; };
 		785D7E052B8CCAE6009988F5 /* Temp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785D7E042B8CCAE6009988F5 /* Temp.swift */; };
 		78BD3D682B8F063600F97D4E /* ConnectingFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BD3D672B8F063600F97D4E /* ConnectingFile.swift */; };
@@ -44,6 +49,12 @@
 		5709B34CF0A7D63546082F79 /* Pods-RnLoginSdkExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RnLoginSdkExample.release.xcconfig"; path = "Target Support Files/Pods-RnLoginSdkExample/Pods-RnLoginSdkExample.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-RnLoginSdkExample-RnLoginSdkExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RnLoginSdkExample-RnLoginSdkExampleTests.debug.xcconfig"; path = "Target Support Files/Pods-RnLoginSdkExample-RnLoginSdkExampleTests/Pods-RnLoginSdkExample-RnLoginSdkExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-RnLoginSdkExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RnLoginSdkExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		780365F82BA1C27700C0888B /* Messages.g.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Messages.g.swift; sourceTree = "<group>"; };
+		7822854D2BA17A2C003D6B57 /* RNTMapManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNTMapManager.m; sourceTree = "<group>"; };
+		7822854F2BA1950F003D6B57 /* RNFlutterViewManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNFlutterViewManager.m; sourceTree = "<group>"; };
+		782285512BA19530003D6B57 /* RNFlutterViewManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RNFlutterViewManager.swift; sourceTree = "<group>"; };
+		782285532BA19579003D6B57 /* RNFlutterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RNFlutterView.swift; sourceTree = "<group>"; };
+		782285552BA19599003D6B57 /* FlutterEngineProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlutterEngineProvider.h; sourceTree = "<group>"; };
 		7848F5AD2B8F07380075A97A /* Connect.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Connect.m; sourceTree = "<group>"; };
 		785D7E032B8CCAE5009988F5 /* RnLoginSdkExample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RnLoginSdkExample-Bridging-Header.h"; sourceTree = "<group>"; };
 		785D7E042B8CCAE6009988F5 /* Temp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Temp.swift; sourceTree = "<group>"; };
@@ -105,6 +116,11 @@
 				785D7E042B8CCAE6009988F5 /* Temp.swift */,
 				785D7E032B8CCAE5009988F5 /* RnLoginSdkExample-Bridging-Header.h */,
 				78BD3D672B8F063600F97D4E /* ConnectingFile.swift */,
+				7822854D2BA17A2C003D6B57 /* RNTMapManager.m */,
+				7822854F2BA1950F003D6B57 /* RNFlutterViewManager.m */,
+				782285512BA19530003D6B57 /* RNFlutterViewManager.swift */,
+				782285532BA19579003D6B57 /* RNFlutterView.swift */,
+				782285552BA19599003D6B57 /* FlutterEngineProvider.h */,
 			);
 			name = RnLoginSdkExample;
 			sourceTree = "<group>";
@@ -129,6 +145,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				780365F82BA1C27700C0888B /* Messages.g.swift */,
 				13B07FAE1A68108700A75B9A /* RnLoginSdkExample */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* RnLoginSdkExampleTests */,
@@ -427,10 +444,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				780365F92BA1C27700C0888B /* Messages.g.swift in Sources */,
 				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
+				782285522BA19530003D6B57 /* RNFlutterViewManager.swift in Sources */,
+				7822854E2BA17A2C003D6B57 /* RNTMapManager.m in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
+				782285502BA1950F003D6B57 /* RNFlutterViewManager.m in Sources */,
 				78BD3D682B8F063600F97D4E /* ConnectingFile.swift in Sources */,
 				7848F5AE2B8F07380075A97A /* Connect.m in Sources */,
+				782285542BA19579003D6B57 /* RNFlutterView.swift in Sources */,
 				785D7E052B8CCAE6009988F5 /* Temp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -622,7 +644,10 @@
 					"-DFOLLY_USE_LIBCPP=1",
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 				);
-				OTHER_LDFLAGS = "$(inherited)  ";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					" ",
+				);
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				USE_HERMES = true;
@@ -690,7 +715,10 @@
 					"-DFOLLY_USE_LIBCPP=1",
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 				);
-				OTHER_LDFLAGS = "$(inherited)  ";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					" ",
+				);
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				USE_HERMES = true;

@@ -3,13 +3,21 @@
 
 @implementation AppDelegate
 
+@synthesize engines;
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
   self.window = [[[UIApplication sharedApplication] windows] firstObject];
   
   // Initialize the Flutter engine and the Flutter view controller
   self.flutterEngine = [[FlutterEngine alloc] initWithName:@"my flutter engine"];
-//  self.flutterViewController = [[FlutterViewController alloc] initWithEngine:self.flutterEngine nibName:nil bundle:nil];
+  
+//  let engines = FlutterEngineGroup(name: "multiple-flutters", project: nil)
+  
+  self.engines = [[FlutterEngineGroup alloc] initWithName:@"io.flutter" project:nil];
+
+  
+  //  self.flutterViewController = [[FlutterViewController alloc] initWithEngine:self.flutterEngine nibName:nil bundle:nil];
 //
 //  // Run the Flutter engine and register the plugins
   [self.flutterEngine run];
